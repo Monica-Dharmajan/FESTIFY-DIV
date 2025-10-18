@@ -187,7 +187,7 @@ function Contact() {
 
 function User() {
   const [userData, setUserData] = useState({});
-  const [userId, setUserId] = useState(1);
+  const [userId, setUserId] = useState(0);
 
   useEffect(() => {
     async function fetchUserBasedOnId() {
